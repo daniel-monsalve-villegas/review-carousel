@@ -220,7 +220,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
 
   margin: 1rem 0 0.5rem;
 }
@@ -234,8 +234,6 @@ body {
 .btn:hover {
   background-color: hsl(205, 100%, 96%);
   color: hsl(205, 78%, 60%);
-  border: 2px solid hsl(205, 63%, 48%);
-  border-radius: 8px;
 }
 
 .random-btn {
