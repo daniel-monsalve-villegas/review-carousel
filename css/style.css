@@ -227,6 +227,15 @@ body {
 
 .btn {
   color: hsl(205, 90%, 76%);
+  padding: 0.2em;
+  transition: all .1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: hsl(205, 100%, 96%);
+  color: hsl(205, 78%, 60%);
+  border: 2px solid hsl(205, 63%, 48%);
+  border-radius: 8px;
 }
 
 .random-btn {
@@ -237,4 +246,11 @@ body {
   background-color: hsl(205, 100%, 96%);
   color: hsl(205, 78%, 60%);
   text-transform: capitalize;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+
+.random-btn:hover {
+  background-color: hsl(205, 90%, 76%);
+  color: hsl(205, 86%, 17%);
 }
