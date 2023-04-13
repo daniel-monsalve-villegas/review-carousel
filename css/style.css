@@ -133,10 +133,104 @@ body {
   min-height: 100vh;
   font-size: 100%;
   font-family: var(--main-type);
+  background-color: hsl(205, 100%, 96%);
   color: var(--black);
   line-height: 1.4em;
   hyphens: auto;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  min-height: 100vh;
+}
+
+.title {
+  padding: 4em;
+  margin-top: 3em;
+}
+.h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  color: hsl(209, 61%, 16%);
+  margin: 0 0 0.5em;
+}
+
+.underline {
+  border: 3px solid hsl(205, 78%, 60%);
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 8rem;
+}
+
+.review {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 1px 1px 30px 2px lightgray;
+  margin: 0 0 1em;
+}
+
+.img-container {
+  width: 20%;
+  margin: 2em auto;
+  border-radius: 50%;
+  background-color: hsl(205, 78%, 60%);
+  transform: translate(5px, -5px);
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  transform: translate(-10px, 8px);
+}
+
+.h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  color: hsl(209, 61%, 16%);
+}
+
+.p-job {
+  color: hsl(205, 90%, 76%);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0.5rem 0 1rem;
+}
+
+.p-info {
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0 0.5rem;
+}
+
+.btn {
+  color: hsl(205, 90%, 76%);
+}
+
+.random-btn {
+  margin: 1rem auto 1.5rem;
+  padding: 0.3rem;
+  border: 2px solid hsl(205, 63%, 48%);
+  border-radius: 8px;
+  background-color: hsl(205, 100%, 96%);
+  color: hsl(205, 78%, 60%);
+  text-transform: capitalize;
 }
